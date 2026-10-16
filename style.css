@@ -1,38 +1,50 @@
-h1{
-color: rgb(38, 202, 202);
-font-size:100px ;
-text-align: center;
-background-color: rgb(14, 194, 194) rgb(121, 107, 194);
+body{
+    background-color: rgb(186, 255, 244);
 }
 
-h2{
-    color: rgb(191, 136, 255);
-    font-size: 50px;
-    text-align: center;
+header{
+    background-color: rgb(40, 159, 180);
+    padding: 20px;
 }
-body{
-    background-image: url(https://i.pinimg.com/originals/4c/16/7f/4c167f06c3f89a822cb9db42077fc453.gif);
-    background-size: auto;
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
 }
-img{
-    width: 220px;
+nav li{
+    display: inline;
+    margin: 0 0 0 25px;
 }
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    height: 200px;
+    margin: 0 auto;
+}
+h1 img{
+    width: 180px;
+}
+
 footer{
-    background-color: rgb(88, 167, 231);
-    width: auto;
+    text-align: center;
+    background-color: rgb(40, 159, 180);
+    padding: 60px 0 ;
 }
 footer img{
-width: 150px;
+    width: 100px;
 }
-.imagem{
-    text-align: center;
-    background-color: rgb(163, 85, 253);
-    width: 400px;
-    margin: auto;
-    border-style: dashed;
-    border-radius: 50px;
-    margin-bottom: 50px;
-    border-color: rgb(0, 0, 0);
+.copyright{
+color: rgb(58, 1, 133);
+font-size: 15px;
+margin: 20px 0 0 ;
 }
 main{
     width: 940px;
@@ -46,64 +58,38 @@ form label, form p{
     font-size: 20px;
     margin: 0 0 10px;
 }
-.input-padrao{
-    display: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
+.Imagem{
+    padding: 35px 10px 50px 10px;
+    text-align: center;
 }
-.copyright{
-    color: blueviolet;
-    font-size: 13px;
-    margin: 20px 0 0;
+h2 img{
+    width: 550PX;
+    height: auto;
+    border-radius: 26%;
+    object-fit: cover;
 }
-.checkbox{
-    margin: 20px 0;
+.mapa h2{
+padding: 15px 15px 15px 15px;
+font-weight: 700;
+font-size: 25px;
 }
-.enviar{
-    width: 40%;
-    padding: 15px 0;
-    background-color: rgb(48, 167, 175);
-    color: rgb(110, 9, 150);
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    transition: 1s all;
-    cursor: pointer;
+.mapa p{
+padding: 15px 15px 15px 15px;
 }
-.enviar:hover{
-    background-color: azure;
-    transform: scale(1.2);
-    animation: rotate 3s linear infinite;
+.mapa iframe{
+padding: 15px 15px 15px 15px;
 }
-    @keyframes rotate {
-    0%{
-        transform: rotate(0deg);
-        border-style: solid;
-        border-color: blue;
-        }
-    25%{
-        transform: rotate(45deg);
-        border-style: solid;
-        border-color: blueviolets
-    }
-    50%{
-        transform: rotate(0deg);
-        border-style: solid;
-        border-color: blueviolets
-    }
-    75%{
-        transform: rotate(45deg);
-        border-style: solid;
-        border-color: blueviolets
-    }
-    100%{
-        transform: rotate(0deg);
-        border-style: solid;
-        border-color: blueviolets
-    }
-    }
-
-.mapa{
-width: 38px;
+.mapa {
+    text-align: center;
+}
+.texto {
+    padding: 23px 23px 35px 23px;
+    box-sizing: border-box;
+    border: 2px solid rgb(40, 159, 180);
+    border-radius: 18%;
+     margin: 0 1.5%;
+}
+.video {
+    padding: 50px 50px 50px 50px;
+    text-align: center;
 }

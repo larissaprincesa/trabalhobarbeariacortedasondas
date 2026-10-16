@@ -1,5 +1,9 @@
+body{
+    background-color: rgb(186, 255, 244);
+}
+
 header{
-    background-color: rgb(55, 179, 201);
+    background-color: rgb(40, 159, 180);
     padding: 20px;
 }
 nav{
@@ -46,6 +50,8 @@ h1 img{
 }
 .servicos img{
     width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .servicos h2{
     font-size: 30px;
@@ -74,7 +80,7 @@ nav a:hover{
 }
 footer{
     text-align: center;
-    background-color: rgb(55, 179, 201);
+    background-color: rgb(40, 159, 180);
     padding: 60px 0 ;
 }
 footer img{
@@ -113,19 +119,19 @@ form label, form p{
 .enviar{
     width: 40%;
     padding: 15px 0;
-    background-color: rgb(48, 167, 175);
+    background-color: rgb(40, 159, 180);
     color: rgb(110, 9, 150);
     font-weight: bold;
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    transition: 1s all;
+    transition: 0.5s all;
     cursor: pointer;
 }
 .enviar:hover{
-    background-color: azure;
+    background-color: rgb(186, 255, 244);
     transform: scale(1.2);
-    animation: rotate 3s linear infinite;
+   
 }
     @keyframes rotate {
     0%{
