@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Contatos</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="servicos.css">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="corte das onda (1).png" ></h1>
+        <nav>
+            <ul>
+                <li> <a href="index.html">INÍCIO</a></li>
+                <li><a href="contatos.html">CONTATOS</a></li>
+                <li><a href="servicos.html">SERVIÇOS</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome"> Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao">
+
+            <label for="email"> Email</label>
+            <input type="text" id="email" class="input-padrao">
+
+            <label for="telefone"> Telefone</label>
+            <input type="text" id="telefone" class="input-padrao">
+
+            <label for="mensagem"> Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea> 
+    
+    <div>
+        <p>como prefere o nosso contato?</p>
+        <label for="radio-email">
+            <input type="radio" name="contato" value="email" id="radio-email">
+            email
+        </label>
+        <label for="radio-telefone">
+            <input type="radio" name="contato" value="telefone" id="radio-telefone">
+            telefone
+        </label>
+        <label for="radio-whatsapp">
+            <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+            whatsapp
+        </label>
+    </div>
+    <div>
+        <p>qual hórario prefere ser atendido?</p>
+        <select>
+            <option>Manhã</option>
+            <option>tarde</option>
+            <option>noite</option>
+        </select>
+    </div>
+
+    <label class="=checkbox">
+         <input type="checkbox">
+         gostariam de receber nosssas novidades por email?
+    </label>
+
+    <input type="submit" value="Enviar Formulário" class="enviar">
+</form>
+</main>
+    <footer>
+        <img src="corte das onda (1).png">
+        <p class="copyrighy"> &#169;larilarie // a mais mais</p>
+    </footer>
+</body>
+</html>
