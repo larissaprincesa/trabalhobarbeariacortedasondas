@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(186, 255, 244);
+    background-color: rgb(215, 243, 238);
 }
 
 header{
@@ -42,7 +42,7 @@ footer img{
     width: 100px;
 }
 .copyright{
-color: rgb(58, 1, 133);
+color:rgb(79, 24, 131);
 font-size: 15px;
 margin: 20px 0 0 ;
 }
