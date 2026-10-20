@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    background-color: rgb(40, 159, 180);
+    background-color: rgb rgb(33, 158, 167);
     padding: 20px;
 }
 nav{
@@ -80,7 +80,7 @@ nav a:hover{
 }
 footer{
     text-align: center;
-    background-color: rgb(40, 159, 180);
+    background-color: rgb rgb(33, 158, 167);
     padding: 60px 0 ;
 }
 footer img{
